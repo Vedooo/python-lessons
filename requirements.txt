@@ -7,5 +7,4 @@ random
 time
 BeautifulSoup
 requests
-subprocess
 os
