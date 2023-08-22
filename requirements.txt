@@ -1,6 +1,6 @@
 pandas
 numpy
-tkinter
+Tk
 turtle
 math
 random
