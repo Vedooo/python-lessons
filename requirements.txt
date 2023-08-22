@@ -1,0 +1,11 @@
+pandas
+numpy
+tkinter
+turtle
+math
+random
+time
+BeautifulSoup
+requests
+subprocess
+os
