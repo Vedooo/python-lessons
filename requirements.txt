@@ -1,6 +1,6 @@
 pandas
 numpy
-tkinter==8.6
+tkinter
 turtle
 math
 random
