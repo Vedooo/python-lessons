@@ -3,7 +3,7 @@ name: Python application
 on:
   push:
     branches: [ master ]
-    paths:
+    paths-ignore:
       - '!content/web-scraping/**'
   pull_request:
     branches: [ master ]
