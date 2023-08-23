@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'content/web-scraping/**'
+      - '!content/web-scraping/**'
   pull_request:
     branches: [ master ]
   
