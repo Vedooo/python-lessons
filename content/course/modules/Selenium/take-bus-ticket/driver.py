@@ -11,6 +11,18 @@ class BiletallScraper:
         self.biletall_url = 'https://www.biletall.com'
         self.driver.maximize_window()
 
+    def send_a_message():
+        pass
+    
+    def pay_the_ticket():
+        pass
+    
+    def select_seat():
+        pass
+    
+    def select_ticket():
+        pass
+    
     def select_company(self, company):
         company_filter = self.driver.find_element(By.XPATH, value="//*[@id='quick-filters-container']/ul/li[6]/button")
         company_filter.click()
@@ -21,6 +33,9 @@ class BiletallScraper:
             company_dropdown.click()
             company_elements = self.driver.find_elements(By.XPATH, value="//*[@id='filters-bar']/ob-dropdown[1]/div[2]/div/ul/li")
             company_list = [comp.text for comp in company_elements]    
+            company_list = [comp.text for comp in company_elements]    
+
+            company_list = [comp.text for comp in company_elements]
 
             if company not in company_list:
                 print(f"{company} does not provide service on the route you have selected.")

@@ -11,8 +11,8 @@ if __name__ == "__main__":
 origin = input("From: ").title()
 destination = input("To: ").title()
 date = input("Choose Date(YYYY-MM-DD): ")
-date_period = input("Which period of the day(Sabah, Öğlen, Akşam, Bağlayan Gece): ").title()
-company = input ("Firma seç: ")
+date_period = input("Which period of the day(Sabah, Öğlen, Akşam, Bağlayan Gece), also type for (2+1) seat: ")
+company = input ("Firma seç: ").title()
 
 if origin and destination and date:
     try:
