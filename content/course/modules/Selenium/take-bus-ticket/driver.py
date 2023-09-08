@@ -11,11 +11,42 @@ class BiletallScraper:
         self.biletall_url = 'https://www.biletall.com'
         self.driver.maximize_window()
 
+    def select_company(self, company):
+        company_filter = self.driver.find_element(By.XPATH, value="//*[@id='quick-filters-container']/ul/li[6]/button")
+        company_filter.click()
+        
+        option_active = True
+        while option_active:
+            company_dropdown = self.driver.find_element(By.XPATH, value="//*[@id='filters-bar']/ob-dropdown[1]")
+            company_dropdown.click()
+            company_elements = self.driver.find_elements(By.XPATH, value="//*[@id='filters-bar']/ob-dropdown[1]/div[2]/div/ul/li")
+            company_list = [comp.text for comp in company_elements]    
+
+            if company not in company_list:
+                print(f"{company} does not provide service on the route you have selected.")
+                print("Available Options:")
+                for i, comp in enumerate(company_list, start=1):
+                    print(f"{i}. {comp}")
+                
+                try:
+                    company_index = int(input("Choose an available company from the list (1-{}): ".format(len(company_list))))
+                    if 1 <= company_index <= len(company_list):
+                        selected_company = company_elements[company_index - 1]
+                        company_name = selected_company.text
+                        print(f"{company_name} selected.")
+                        selected_company.click()
+                        option_active = False
+                    else:
+                        print("Enter a valid number.")
+                except ValueError:
+                    print("Enter a valid number.")
+            else:
+                option_active = False
+            
     def select_filters(self,date_period):
         if ',' in date_period:
             date_periods = date_period.split(',')
             for dp in date_periods:
-                # Burada dp değişkeniyle işlem yapabilirsiniz
                 departure_filter = self.driver.find_element(By.XPATH, value="//*[@id='quick-filters-container']/ul")
                 departure_filters = departure_filter.find_elements(By.XPATH, value='li')
                 filter_list = [filter.text for filter in departure_filters]
@@ -29,7 +60,6 @@ class BiletallScraper:
                     except Exception as e:
                         print(e)
 
-        # Tek bir değer gelmişse doğrudan işlem yap
         else:
             departure_filter = self.driver.find_element(By.XPATH, value="//*[@id='quick-filters-container']/ul")
             departure_filters = departure_filter.find_elements(By.XPATH, value='li')
@@ -43,20 +73,6 @@ class BiletallScraper:
                         filter_element.click()
                 except Exception as e:
                     print(e)
-
-        # departure_filter = self.driver.find_element(By.XPATH, value="//*[@id='quick-filters-container']/ul")
-        # departure_filters = departure_filter.find_elements(By.XPATH, value='li')
-        # filter_list = [filter.text for filter in departure_filters]
-        # for filter in filter_list:
-        #     try:
-        #         if date_period == filter:
-        #             index = filter_list.index(filter) + 1
-        #             xpath = f"//*[@id='quick-filters-container']/ul/li[{index}]/button"
-        #             filter_element = self.driver.find_element(By.XPATH, xpath)
-        #             filter_element.click()
-        #     except Exception as e:
-        #         print(e)
-        
         
     def select_date(self, date):
         departure_input = self.driver.find_element(By.ID, value='departure-input')
@@ -91,6 +107,7 @@ class BiletallScraper:
         search_button.send_keys(Keys.ENTER)
         time.sleep(5)
         
-
     def quit(self):
         self.driver.quit()
+
+

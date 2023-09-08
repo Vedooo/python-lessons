@@ -8,16 +8,18 @@ if __name__ == "__main__":
 
     date_range = DateRange(start_date_str, end_date_str)
 
-origin = input("Nereden: ").title()
-destination = input("Nereye: ").title()
-date = input("Tarihi girin (YYYY-MM-DD): ")
-date_period = input("Günün hangi zamanı (Sabah, Öğlen, Akşam, Bağlayan Gece): ").title()
+origin = input("From: ").title()
+destination = input("To: ").title()
+date = input("Choose Date(YYYY-MM-DD): ")
+date_period = input("Which period of the day(Sabah, Öğlen, Akşam, Bağlayan Gece): ").title()
+company = input ("Firma seç: ")
 
 if origin and destination and date:
-        try:
-            driver = BiletallScraper()
-            driver.search_tickets(origin, destination, date)
-            driver.select_filters(date_period)
-        finally:
-            pass
+    try:
+        driver = BiletallScraper()
+        driver.search_tickets(origin, destination, date)
+        driver.select_filters(date_period)
+        driver.select_company(company)
+    finally:
+        driver.quit()
     
