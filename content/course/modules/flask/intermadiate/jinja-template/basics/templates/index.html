@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Welcome the website</h3>
+    <a href="{{ url_for('blog', num=3) }}">Go to Blog</a>
+</body>
+<footer>
+    <p>
+        This website created at {{ year }} by {{ writer }}
+    </p>
+</footer>
+</html>
