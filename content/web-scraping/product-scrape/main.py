@@ -14,15 +14,15 @@ driver.get(URL)
 def filter_checks():
     verified_supplier = driver.find_element(By.XPATH, value='//*[@id="root"]/div/div[4]/div/div[5]/div[2]/a[1]/label/span[1]')
     verified_supplier.click()
-    time.sleep(5)
+    time.sleep(4)
     ready_to_ship = driver.find_element(By.XPATH, value='//*[@id="root"]/div/div[4]/div/div[6]/div[2]/a[1]/label/span[1]')
     ready_to_ship.click()
-    time.sleep(5)
+    time.sleep(4)
 
 
 filter_checks()
 
-scroll_pause_time = 3
+scroll_pause_time = 2
 screen_height = driver.execute_script("return window.screen.height;")
 i = 1
 while True:
@@ -44,18 +44,24 @@ for item in items:
     title = item.find('h2', class_="search-card-e-title").text
     price = item.find('div', class_="search-card-e-price-main").text
     order_info = item.find_all('div', class_="search-card-m-sale-features margin-bottom-12")
-    for info_container in order_info:
-        info_items = info_container.find_all('div', class_="search-card-m-sale-features__item")
-    experience = driver.find_element(By.XPATH, value='//*[@id="root"]/div/div[5]/div[3]/div/div/div/div[1]/div[2]/div[1]/div[1]/div/a[3]/span').text
-    item_list.append({
-        f"{int(product_id)}": {
-            "title": title,
-            "price": price,
-            "info": {info.text for info in info_items},
-            "experience": experience.replace('\n', ' '),
-            }
-        })
 
-print(item_list)
+    info_items = []
+
+    for info_container in order_info:
+        info_items.extend(info_container.find_all('div', class_="search-card-m-sale-features__item"))
+
+    experience = driver.find_element(By.XPATH, value='//*[@id="root"]/div/div[5]/div[3]/div/div/div/div[1]/div[2]/div[1]/div[1]/div/a[3]/span').text
+    product_data = {
+        "product_id": product_id,
+        "title": title,
+        "price": price,
+        "info": [info.text for info in info_items],
+        "experience": experience.replace('\n', ' ')
+    }
+
+    item_list.append(product_data)
+
+with open("products.json", "w", encoding="utf-8") as json_file:
+    json.dump(item_list, json_file, ensure_ascii=False, indent=4)
 
 driver.quit()
