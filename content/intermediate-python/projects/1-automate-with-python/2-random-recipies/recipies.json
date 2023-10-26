@@ -1,338 +1,290 @@
 [
     {
-        "Slow Cooker Buffalo Chicken Sandwiches": {
-            "category": "Chicken",
-            "rating": "2,541 Ratings",
-            "link": "https://www.allrecipes.com/recipe/176132/slow-cooker-buffalo-chicken-sandwiches/"
-        }
+        "food_name": "Slow Cooker Buffalo Chicken Sandwiches",
+        "category": "Chicken",
+        "rating": "2,541 Ratings",
+        "link": "https://www.allrecipes.com/recipe/176132/slow-cooker-buffalo-chicken-sandwiches/"
     },
     {
-        "Pan-Fried Pork Chops": {
-            "category": "Pan Fried",
-            "rating": "14 Ratings",
-            "link": "https://www.allrecipes.com/recipe/8495583/pan-fried-pork-chops/"
-        }
+        "food_name": "Pan-Fried Pork Chops",
+        "category": "Pan Fried",
+        "rating": "14 Ratings",
+        "link": "https://www.allrecipes.com/recipe/8495583/pan-fried-pork-chops/"
     },
     {
-        "Prosciutto-Wrapped Pork Tenderloin with Crispy Sage": {
-            "category": "Pork Tenderloin Recipes",
-            "rating": "14 Ratings",
-            "link": "https://www.allrecipes.com/recipe/245210/prosciutto-wrapped-pork-tenderloin-with-crispy-sage/"
-        }
+        "food_name": "Prosciutto-Wrapped Pork Tenderloin with Crispy Sage",
+        "category": "Pork Tenderloin Recipes",
+        "rating": "14 Ratings",
+        "link": "https://www.allrecipes.com/recipe/245210/prosciutto-wrapped-pork-tenderloin-with-crispy-sage/"
     },
     {
-        "Tater Tot Casserole": {
-            "category": "Tater Tots\u00a8",
-            "rating": "572 Ratings",
-            "link": "https://www.allrecipes.com/recipe/222037/tater-tots-r-casserole/"
-        }
+        "food_name": "Tater Tot Casserole",
+        "category": "Tater Tots\u00ae",
+        "rating": "575 Ratings",
+        "link": "https://www.allrecipes.com/recipe/222037/tater-tots-r-casserole/"
     },
     {
-        "Simple Deep Fried Turkey": {
-            "category": "Deep-Fried",
-            "rating": "8 Ratings",
-            "link": "https://www.allrecipes.com/recipe/215412/simple-deep-fried-turkey/"
-        }
+        "food_name": "Simple Deep Fried Turkey",
+        "category": "Deep-Fried",
+        "rating": "8 Ratings",
+        "link": "https://www.allrecipes.com/recipe/215412/simple-deep-fried-turkey/"
     },
     {
-        "Simple Baked Chicken Breasts": {
-            "category": "Chicken Breast",
-            "rating": "484 Ratings",
-            "link": "https://www.allrecipes.com/recipe/240208/simple-baked-chicken-breasts/"
-        }
+        "food_name": "Simple Baked Chicken Breasts",
+        "category": "Chicken Breast",
+        "rating": "486 Ratings",
+        "link": "https://www.allrecipes.com/recipe/240208/simple-baked-chicken-breasts/"
     },
     {
-        "World's Best Honey Garlic Pork Chops": {
-            "category": "Pork Chops",
-            "rating": "652 Ratings",
-            "link": "https://www.allrecipes.com/recipe/235158/worlds-best-honey-garlic-pork-chops/"
-        }
+        "food_name": "World's Best Honey Garlic Pork Chops",
+        "category": "Pork Chops",
+        "rating": "653 Ratings",
+        "link": "https://www.allrecipes.com/recipe/235158/worlds-best-honey-garlic-pork-chops/"
     },
     {
-        "Pan-Seared Tilapia": {
-            "category": "Tilapia",
-            "rating": "812 Ratings",
-            "link": "https://www.allrecipes.com/recipe/201934/pan-seared-tilapia/"
-        }
+        "food_name": "Pan-Seared Tilapia",
+        "category": "Tilapia",
+        "rating": "812 Ratings",
+        "link": "https://www.allrecipes.com/recipe/201934/pan-seared-tilapia/"
     },
     {
-        "Easy Baked Chicken Thighs": {
-            "category": "Thighs",
-            "rating": "201 Ratings",
-            "link": "https://www.allrecipes.com/recipe/235153/easy-baked-chicken-thighs/"
-        }
+        "food_name": "Easy Baked Chicken Thighs",
+        "category": "Thighs",
+        "rating": "201 Ratings",
+        "link": "https://www.allrecipes.com/recipe/235153/easy-baked-chicken-thighs/"
     },
     {
-        "Chicken Cordon Bleu": {
-            "category": "Chicken Cordon Bleu Recipes",
-            "rating": "2,688 Ratings",
-            "link": "https://www.allrecipes.com/recipe/8495/chicken-cordon-bleu-i/"
-        }
+        "food_name": "Chicken Cordon Bleu",
+        "category": "Chicken Cordon Bleu Recipes",
+        "rating": "2,689 Ratings",
+        "link": "https://www.allrecipes.com/recipe/8495/chicken-cordon-bleu-i/"
     },
     {
-        "Fluffy Microwave Scrambled Eggs": {
-            "category": "Scrambled",
-            "rating": "77 Ratings",
-            "link": "https://www.allrecipes.com/recipe/272293/fluffy-microwave-scrambled-eggs/"
-        }
+        "food_name": "Fluffy Microwave Scrambled Eggs",
+        "category": "Scrambled",
+        "rating": "78 Ratings",
+        "link": "https://www.allrecipes.com/recipe/272293/fluffy-microwave-scrambled-eggs/"
     },
     {
-        "Turkey in a Bag": {
-            "category": "Roasted",
-            "rating": "272 Ratings",
-            "link": "https://www.allrecipes.com/recipe/23157/turkey-in-a-bag/"
-        }
+        "food_name": "Turkey in a Bag",
+        "category": "Roasted",
+        "rating": "272 Ratings",
+        "link": "https://www.allrecipes.com/recipe/23157/turkey-in-a-bag/"
     },
     {
-        "Buttered Noodles": {
-            "category": "Pasta",
-            "rating": "146 Ratings",
-            "link": "https://www.allrecipes.com/recipe/244458/buttered-noodles/"
-        }
+        "food_name": "Buttered Noodles",
+        "category": "Pasta and Noodles",
+        "rating": "147 Ratings",
+        "link": "https://www.allrecipes.com/recipe/244458/buttered-noodles/"
     },
     {
-        "Slow Cooker Baby Back Ribs": {
-            "category": "Baby Back Ribs",
-            "rating": "1,302 Ratings",
-            "link": "https://www.allrecipes.com/recipe/228498/slow-cooker-baby-back-ribs/"
-        }
+        "food_name": "Slow Cooker Baby Back Ribs",
+        "category": "Baby Back Ribs",
+        "rating": "1,303 Ratings",
+        "link": "https://www.allrecipes.com/recipe/228498/slow-cooker-baby-back-ribs/"
     },
     {
-        "Foolproof Rib Roast": {
-            "category": "Roast Recipes",
-            "rating": "1,981 Ratings",
-            "link": "https://www.allrecipes.com/recipe/97621/foolproof-rib-roast/"
-        }
+        "food_name": "Foolproof Rib Roast",
+        "category": "Roast Recipes",
+        "rating": "1,981 Ratings",
+        "link": "https://www.allrecipes.com/recipe/97621/foolproof-rib-roast/"
     },
     {
-        "The Perfect Basic Burger": {
-            "category": "Hamburgers",
-            "rating": "233 Ratings",
-            "link": "https://www.allrecipes.com/recipe/25473/the-perfect-basic-burger/"
-        }
+        "food_name": "The Perfect Basic Burger",
+        "category": "Hamburgers",
+        "rating": "233 Ratings",
+        "link": "https://www.allrecipes.com/recipe/25473/the-perfect-basic-burger/"
     },
     {
-        "Brown Sugar Ham Steak": {
-            "category": "Brown Sugar",
-            "rating": "172 Ratings",
-            "link": "https://www.allrecipes.com/recipe/236432/brown-sugar-ham-steak/"
-        }
+        "food_name": "Brown Sugar Ham Steak",
+        "category": "Brown Sugar",
+        "rating": "172 Ratings",
+        "link": "https://www.allrecipes.com/recipe/236432/brown-sugar-ham-steak/"
     },
     {
-        "Easy Rib Eye Roast": {
-            "category": "Roast Recipes",
-            "rating": "200 Ratings",
-            "link": "https://www.allrecipes.com/recipe/240522/easy-rib-eye-roast/"
-        }
+        "food_name": "Easy Rib Eye Roast",
+        "category": "Roast Recipes",
+        "rating": "200 Ratings",
+        "link": "https://www.allrecipes.com/recipe/240522/easy-rib-eye-roast/"
     },
     {
-        "Mushroom Pork Chops": {
-            "category": "Braised",
-            "rating": "2,198 Ratings",
-            "link": "https://www.allrecipes.com/recipe/14746/mushroom-pork-chops/"
-        }
+        "food_name": "Mushroom Pork Chops",
+        "category": "Braised",
+        "rating": "2,199 Ratings",
+        "link": "https://www.allrecipes.com/recipe/14746/mushroom-pork-chops/"
     },
     {
-        "Honey Glazed Chicken": {
-            "category": "Chicken Breast",
-            "rating": "548 Ratings",
-            "link": "https://www.allrecipes.com/recipe/231939/honey-glazed-chicken/"
-        }
+        "food_name": "Honey Glazed Chicken",
+        "category": "Chicken Breast",
+        "rating": "549 Ratings",
+        "link": "https://www.allrecipes.com/recipe/231939/honey-glazed-chicken/"
     },
     {
-        "Brown Sugar and Pineapple Glazed Ham": {
-            "category": "Whole",
-            "rating": "57 Ratings",
-            "link": "https://www.allrecipes.com/recipe/214002/brown-sugar-and-pineapple-glazed-ham/"
-        }
+        "food_name": "Brown Sugar and Pineapple Glazed Ham",
+        "category": "Whole",
+        "rating": "57 Ratings",
+        "link": "https://www.allrecipes.com/recipe/214002/brown-sugar-and-pineapple-glazed-ham/"
     },
     {
-        "Air Fryer Baked Potatoes": {
-            "category": "Side Dishes",
-            "rating": "66 Ratings",
-            "link": "https://www.allrecipes.com/recipe/265979/air-fryer-baked-potatoes/"
-        }
+        "food_name": "Air Fryer Baked Potatoes",
+        "category": "Side Dishes",
+        "rating": "67 Ratings",
+        "link": "https://www.allrecipes.com/recipe/265979/air-fryer-baked-potatoes/"
     },
     {
-        "Simple BBQ Ribs": {
-            "category": "Country-Style Ribs",
-            "rating": "1,859 Ratings",
-            "link": "https://www.allrecipes.com/recipe/16448/simple-bbq-ribs/"
-        }
+        "food_name": "Simple BBQ Ribs",
+        "category": "Country-Style Ribs",
+        "rating": "1,860 Ratings",
+        "link": "https://www.allrecipes.com/recipe/16448/simple-bbq-ribs/"
     },
     {
-        "Three-Ingredient Baked Chicken Breasts": {
-            "category": "Chicken Breast",
-            "rating": "414 Ratings",
-            "link": "https://www.allrecipes.com/recipe/239137/three-ingredient-baked-chicken-breasts/"
-        }
+        "food_name": "Three-Ingredient Baked Chicken Breasts",
+        "category": "Chicken Breast",
+        "rating": "414 Ratings",
+        "link": "https://www.allrecipes.com/recipe/239137/three-ingredient-baked-chicken-breasts/"
     },
     {
-        "Baked Salmon Fillets Dijon": {
-            "category": "Baked Salmon Recipes",
-            "rating": "1,529 Ratings",
-            "link": "https://www.allrecipes.com/recipe/22538/baked-salmon-fillets-dijon/"
-        }
+        "food_name": "Baked Salmon Fillets Dijon",
+        "category": "Baked Salmon Recipes",
+        "rating": "1,530 Ratings",
+        "link": "https://www.allrecipes.com/recipe/22538/baked-salmon-fillets-dijon/"
     },
     {
-        "Parmesan Crusted Tilapia Fillets": {
-            "category": "Tilapia",
-            "rating": "789 Ratings",
-            "link": "https://www.allrecipes.com/recipe/228056/parmesan-crusted-tilapia-fillets/"
-        }
+        "food_name": "Parmesan Crusted Tilapia Fillets",
+        "category": "Tilapia",
+        "rating": "790 Ratings",
+        "link": "https://www.allrecipes.com/recipe/228056/parmesan-crusted-tilapia-fillets/"
     },
     {
-        "Slow Cooker Pork and Sauerkraut": {
-            "category": "Pork Tenderloin Recipes",
-            "rating": "130 Ratings",
-            "link": "https://www.allrecipes.com/recipe/228630/slow-cooker-pork-and-sauerkraut/"
-        }
+        "food_name": "Slow Cooker Pork and Sauerkraut",
+        "category": "Pork Tenderloin Recipes",
+        "rating": "130 Ratings",
+        "link": "https://www.allrecipes.com/recipe/228630/slow-cooker-pork-and-sauerkraut/"
     },
     {
-        "Crumbed Chicken Tenderloins (Air Fried)": {
-            "category": "Chicken",
-            "rating": "181 Ratings",
-            "link": "https://www.allrecipes.com/recipe/260625/crumbed-chicken-tenderloins-air-fried/"
-        }
+        "food_name": "Crumbed Chicken Tenderloins (Air Fried)",
+        "category": "Chicken",
+        "rating": "182 Ratings",
+        "link": "https://www.allrecipes.com/recipe/260625/crumbed-chicken-tenderloins-air-fried/"
     },
     {
-        "Ground Beef and Cabbage": {
-            "category": "Everyday Cooking",
-            "rating": "407 Ratings",
-            "link": "https://www.allrecipes.com/recipe/229324/ground-beef-and-cabbage/"
-        }
+        "food_name": "Ground Beef and Cabbage",
+        "category": "Everyday Cooking",
+        "rating": "407 Ratings",
+        "link": "https://www.allrecipes.com/recipe/229324/ground-beef-and-cabbage/"
     },
     {
-        "Old Bay-Seasoned Steamed Shrimp": {
-            "category": "Shrimp",
-            "rating": "11 Ratings",
-            "link": "https://www.allrecipes.com/recipe/279463/old-bay-seasoned-steamed-shrimp/"
-        }
+        "food_name": "Old Bay-Seasoned Steamed Shrimp",
+        "category": "Shrimp",
+        "rating": "11 Ratings",
+        "link": "https://www.allrecipes.com/recipe/279463/old-bay-seasoned-steamed-shrimp/"
     },
     {
-        "Salsa Chicken": {
-            "category": "Mexican",
-            "rating": "4,723 Ratings",
-            "link": "https://www.allrecipes.com/recipe/16700/salsa-chicken/"
-        }
+        "food_name": "Salsa Chicken",
+        "category": "Mexican",
+        "rating": "4,725 Ratings",
+        "link": "https://www.allrecipes.com/recipe/16700/salsa-chicken/"
     },
     {
-        "Easy Baked Ham Steaks": {
-            "category": "Brown Sugar",
-            "rating": "65 Ratings",
-            "link": "https://www.allrecipes.com/recipe/231061/easy-baked-ham-steaks/"
-        }
+        "food_name": "Easy Baked Ham Steaks",
+        "category": "Brown Sugar",
+        "rating": "65 Ratings",
+        "link": "https://www.allrecipes.com/recipe/231061/easy-baked-ham-steaks/"
     },
     {
-        "Mississippi Roast (Slow Cooker Pepperoncini Pot Roast)": {
-            "category": "Pot Roast Recipes",
-            "rating": "402 Ratings",
-            "link": "https://www.allrecipes.com/recipe/246721/mississippi-roast-slow-cooker-pepperoncini-pot-roast/"
-        }
+        "food_name": "Mississippi Roast (Slow Cooker Pepperoncini Pot Roast)",
+        "category": "Pot Roast Recipes",
+        "rating": "402 Ratings",
+        "link": "https://www.allrecipes.com/recipe/246721/mississippi-roast-slow-cooker-pepperoncini-pot-roast/"
     },
     {
-        "Easy Breaded Shrimp": {
-            "category": "Shrimp",
-            "rating": "126 Ratings",
-            "link": "https://www.allrecipes.com/recipe/16824/easy-breaded-shrimp/"
-        }
+        "food_name": "Easy Breaded Shrimp",
+        "category": "Shrimp",
+        "rating": "126 Ratings",
+        "link": "https://www.allrecipes.com/recipe/16824/easy-breaded-shrimp/"
     },
     {
-        "Kielbasa with Peppers and Potatoes": {
-            "category": "Everyday Cooking",
-            "rating": "757 Ratings",
-            "link": "https://www.allrecipes.com/recipe/85127/kielbasa-with-peppers-and-potatoes/"
-        }
+        "food_name": "Kielbasa with Peppers and Potatoes",
+        "category": "Everyday Cooking",
+        "rating": "758 Ratings",
+        "link": "https://www.allrecipes.com/recipe/85127/kielbasa-with-peppers-and-potatoes/"
     },
     {
-        "Simple Chicken Mayo with Parmesan and Bread Crumbs": {
-            "category": "Chicken Breast",
-            "rating": "84 Ratings",
-            "link": "https://www.allrecipes.com/recipe/255305/simple-chicken-mayo-with-parmesan-and-bread-crumbs/"
-        }
+        "food_name": "Simple Chicken Mayo with Parmesan and Bread Crumbs",
+        "category": "Chicken Breast",
+        "rating": "84 Ratings",
+        "link": "https://www.allrecipes.com/recipe/255305/simple-chicken-mayo-with-parmesan-and-bread-crumbs/"
     },
     {
-        "Fiesta Slow Cooker Shredded Chicken Tacos": {
-            "category": "Chicken",
-            "rating": "169 Ratings",
-            "link": "https://www.allrecipes.com/recipe/242342/fiesta-slow-cooker-shredded-chicken-tacos/"
-        }
+        "food_name": "Slow Cooker Chicken Tacos",
+        "category": "Chicken",
+        "rating": "163 Ratings",
+        "link": "https://www.allrecipes.com/recipe/242342/fiesta-slow-cooker-shredded-chicken-tacos/"
     },
     {
-        "Smoked Chicken Drumsticks": {
-            "category": "Chicken Leg Recipes",
-            "rating": "6 Ratings",
-            "link": "https://www.allrecipes.com/recipe/281393/smoked-chicken-drumsticks/"
-        }
+        "food_name": "Smoked Chicken Drumsticks",
+        "category": "Chicken Leg Recipes",
+        "rating": "6 Ratings",
+        "link": "https://www.allrecipes.com/recipe/281393/smoked-chicken-drumsticks/"
     },
     {
-        "How to Cook Trout": {
-            "category": "Fish",
-            "rating": "134 Ratings",
-            "link": "https://www.allrecipes.com/recipe/235851/how-to-cook-trout/"
-        }
+        "food_name": "How to Cook Trout",
+        "category": "Fish",
+        "rating": "134 Ratings",
+        "link": "https://www.allrecipes.com/recipe/235851/how-to-cook-trout/"
     },
     {
-        "Easy Tuna Casserole": {
-            "category": "Tuna",
-            "rating": "1,773 Ratings",
-            "link": "https://www.allrecipes.com/recipe/18871/easy-tuna-casserole/"
-        }
+        "food_name": "Easy Tuna Casserole",
+        "category": "Tuna",
+        "rating": "1,773 Ratings",
+        "link": "https://www.allrecipes.com/recipe/18871/easy-tuna-casserole/"
     },
     {
-        "Mayo Chicken": {
-            "category": "Whole Chicken Recipes",
-            "rating": "218 Ratings",
-            "link": "https://www.allrecipes.com/recipe/230620/mayo-chicken/"
-        }
+        "food_name": "Mayo Chicken",
+        "category": "Whole Chicken Recipes",
+        "rating": "218 Ratings",
+        "link": "https://www.allrecipes.com/recipe/230620/mayo-chicken/"
     },
     {
-        "Maple and Brown Sugar Oatmeal": {
-            "category": "Oatmeal Recipes",
-            "rating": "33 Ratings",
-            "link": "https://www.allrecipes.com/recipe/265505/maple-and-brown-sugar-oatmeal/"
-        }
+        "food_name": "Maple and Brown Sugar Oatmeal",
+        "category": "Oatmeal Recipes",
+        "rating": "33 Ratings",
+        "link": "https://www.allrecipes.com/recipe/265505/maple-and-brown-sugar-oatmeal/"
     },
     {
-        "Parchment Baked Salmon": {
-            "category": "Baked Salmon Recipes",
-            "rating": "90 Ratings",
-            "link": "https://www.allrecipes.com/recipe/229032/parchment-baked-salmon/"
-        }
+        "food_name": "Parchment Baked Salmon",
+        "category": "Baked Salmon Recipes",
+        "rating": "90 Ratings",
+        "link": "https://www.allrecipes.com/recipe/229032/parchment-baked-salmon/"
     },
     {
-        "Pan-Fried Shrimp": {
-            "category": "Shrimp",
-            "rating": "40 Ratings",
-            "link": "https://www.allrecipes.com/recipe/258426/pan-fried-shrimp/"
-        }
+        "food_name": "Pan-Fried Shrimp",
+        "category": "Shrimp",
+        "rating": "40 Ratings",
+        "link": "https://www.allrecipes.com/recipe/258426/pan-fried-shrimp/"
     },
     {
-        "BBQ Chicken Breasts in the Oven": {
-            "category": "Chicken Breast",
-            "rating": "35 Ratings",
-            "link": "https://www.allrecipes.com/recipe/280052/bbq-chicken-breasts-in-the-oven/"
-        }
+        "food_name": "BBQ Chicken Breasts in the Oven",
+        "category": "Chicken Breast",
+        "rating": "35 Ratings",
+        "link": "https://www.allrecipes.com/recipe/280052/bbq-chicken-breasts-in-the-oven/"
     },
     {
-        "Easy Crispy Baked Chicken": {
-            "category": "Chicken Breast",
-            "rating": "176 Ratings",
-            "link": "https://www.allrecipes.com/recipe/231367/easy-crispy-baked-chicken/"
-        }
+        "food_name": "Easy Crispy Baked Chicken",
+        "category": "Chicken Breast",
+        "rating": "176 Ratings",
+        "link": "https://www.allrecipes.com/recipe/231367/easy-crispy-baked-chicken/"
     },
     {
-        "Cheese Omelette": {
-            "category": "Omelet Recipes",
-            "rating": "11 Ratings",
-            "link": "https://www.allrecipes.com/recipe/262696/cheese-omelette/"
-        }
+        "food_name": "Cheese Omelette",
+        "category": "Omelet Recipes",
+        "rating": "11 Ratings",
+        "link": "https://www.allrecipes.com/recipe/262696/cheese-omelette/"
     },
     {
-        "Pan-Roasted Chicken Breasts": {
-            "category": "Skillet Chicken",
-            "rating": "225 Ratings",
-            "link": "https://www.allrecipes.com/recipe/245367/pan-roasted-chicken-breasts/"
-        }
+        "food_name": "Pan-Roasted Chicken Breasts",
+        "category": "Skillet Chicken",
+        "rating": "225 Ratings",
+        "link": "https://www.allrecipes.com/recipe/245367/pan-roasted-chicken-breasts/"
     }
 ]

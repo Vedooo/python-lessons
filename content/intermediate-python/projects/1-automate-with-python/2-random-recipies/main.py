@@ -1,6 +1,23 @@
+import mysql.connector
 from selenium import webdriver
 import random as rd
 import json
+
+db_connection = mysql.connector.connect(
+    host = "127.0.0.1",
+    user = "root",
+    password = "159357",
+    database = "testdb"
+)
+
+cursor = db_connection.cursor()
+cursor.execute("CREATE TABLE recipies ( \
+                food_name VARCHAR(255), \
+                category VARCHAR(255), \
+                rating VARCHAR(255), \
+                link VARCHAR(255) \
+                )"
+            )
 
 
 url = 'https://www.allrecipes.com/recipes/17057/everyday-cooking/more-meal-ideas/5-ingredients/main-dishes/'
@@ -24,11 +41,10 @@ for i in range(4):
         food_name = container.find_element(by='xpath', value='./div[2]/span/span').text
         rating = container.find_element(by='xpath', value='./div[2]/div[@class="comp recipe-card-meta"]/div/div[2]').text
         recipies.append({
-            f"{food_name}": {
+                "food_name": food_name,
                 "category": category, 
                 "rating": rating, 
                 "link": link,
-                }
             })
 
 with open("recipies.json", "w") as file:
@@ -36,5 +52,8 @@ with open("recipies.json", "w") as file:
 
 driver.quit()
 
-random_food = rd.choice(recipies)
-print(random_food)
+recipies_as_tuples = [(item['food_name'], item['category'], item['rating'], item['link']) for item in recipies]
+
+formula = "INSERT INTO recipies (food_name, category, rating, link) VALUES (%s, %s, %s, %s)"
+cursor.executemany(formula, recipies_as_tuples)
+db_connection.commit()
